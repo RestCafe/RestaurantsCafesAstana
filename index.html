@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Restaurants and Cafés in Astana</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/05775e320a.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <script type="text/javascript" src="./js/main.js"></script>
+</head>
+
+<body>
+  
+  <audio src="./js/Thanks.mp3" id="animus1"></audio>
+  <script type="text/javascript">
+  var ad1 = document.getElementById("animus1");
+  
+    function playaudio1(){
+      ad1.play();
+    }
+    function pauseaudio1(){
+      ad1.pause();
+    }
+    document.addEventListener('keypress', function(a) {
+      if(a.keyCode == 49){
+    playaudio1();
+      }});
+      document.addEventListener('keypress', function(a) {
+      if(a.keyCode == 50){
+    pauseaudio1();
+      }});
+    </script>
+
+  <audio src=".\js\bensound-creativeminds.mp3" id="animus"></audio>
+  <script type="text/javascript">
+    var ad = document.getElementById("animus");
+  
+    function playaudio(){
+      ad.play();
+    }
+    function pauseaudio(){
+      ad.pause();
+    }
+    document.addEventListener('keypress', function(e) {
+      if(e.keyCode == 51){
+    playaudio();
+      }});
+      document.addEventListener('keypress', function(a) {
+      if(a.keyCode == 52){
+    pauseaudio();
+      }});
+  </script>
+   
+
+  <header>
+  <div class="header-background" id="hbg">
+    <div id="nav" class="sticky-nav">
+
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+
+      <a class="navbar-brand" href="restcaf.html"><i class="fas fa-coffee"></i> Restaurants & Cafes</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="restcaf.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contacts</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="photos.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Photos
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="photos.html">photo-gallery</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="more.html">More</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+         
+        </form>
+      </div>
+    </div>
+  </div>
+  
+</div>
+  </nav>
+  </header>
+        
+
+<center>
+        <h1 style="font-family: helvetica;" id="waw"></h1>
+
+        <script type="text/javascript">
+          var i = 0, text;
+          text = "Restaurants and Cafés in Astana"
+    
+        function typing(){
+      if(i < text.length){
+        document.getElementById("waw").innerHTML += text.charAt(i);
+        i++;
+        setTimeout(typing, 50);
+      }
+    }
+    typing();
+            </script>
+
+        <h6><i>Welcome!</i></h6>
+        <h3 style="font-family: helvetica;" id="onthis"></h3>
+  </center>
+
+  <center>
+          <p style="font-family: helvetica;"></p>
+          <script type="text/javascript">
+            var j = 0, text1;
+            text1 = "On this website you will find TOP-5 Restaurants and Cafés located in the city of Astana"
+      
+          window.onmouseover = function typing1(){
+        if(j < text1.length){
+          document.getElementById("onthis").innerHTML += text1.charAt(j);
+          j++;
+          setTimeout(typing1, 60);
+        }
+      }
+      typing1();
+      </script>
+       
+
+        <div class="slideshow-container">
+          <div class="mySlides fade">
+        <img src="https://rrsg.s3.amazonaws.com/wp-content/uploads/2018/09/22185315/FEA_Astana_MAIN-e1500472654224.jpg" width="350" height="233"
+          align="top">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+          </div>
+          <div class="mySlides fade">
+            <img src="http://getaboutasia.com/blog/wp-content/uploads/2019/07/shutterstock_585990431.jpg" width="350" height="233"
+              align="top">
+            <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+              </div>
+              <div class="mySlides fade">
+                <img src="https://img.jamesedition.com/listing_images/2019/03/04/11/00/34/96421005-73bd-4b03-bc3d-ad6bd00adf7b/je/1040x620xc.jpg" width="350" height="233"
+                  align="top">
+                <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+                  </div>
+                 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                  <a class="next" onclick="plusSlides(1)">&#10095;</a> 
+</div>
+          </div>
+
+      
+</html>
+</center>
+<hr>
+<center>
+  <h3 style="font-family: helvetica;" class="table1"><em>Number</em> of Restaurants and Cafés located:</h3>
+</center>
+
+<ul>
+  <center>
+    <table border="2" class="table1">
+      <tr>
+        <center>
+          <th> Overall </th>
+        </center>
+        <center>
+          <th> Restaurants </th>
+        </center>
+        <center>
+          <th> Cafés </th>
+        </center>
+        <center>
+          <th> You should visit </th>
+        </center>
+      </tr>
+
+      <tr>
+        <center>
+          <td> 349 </td>
+        </center>
+        <center>
+          <td> 199 </td>
+        </center>
+        <center>
+          <td> 150 </td>
+        </center>
+        <center>
+          <td> all of them </th>
+        </center>
+      </tr>
+    </table>
+  </center>
+</ul>
+<hr>
+
+<center>
+  <h3 style="font-family: helvetica; text-align: center;">TOP-5 Best <em>Restaurants</em></h3>
+</center>
+
+<style>
+  * {
+    box-sizing: border-box;
+  }
+
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+</style>
+<div class="row">
+  <div class="column">
+
+    <img src="https://avatars.mds.yandex.net/get-altay/4012790/2a0000017b1c8066e994f0181978726b93c6/XXXL" alt="master coffee" width="370" height="333">
+    <a href="https://www.instagram.com/mastercoffee_kz/"><button type="button" class="btn btn-info">Master coffee </button> </a>
+    <ol>
+      <li>PRICE RANGE
+        1,744 KZT - 6,103 KZT</li>
+      <li>KITCHEN TYPE
+        American, Bar, European, Contemporary, Soups</li>
+      <li>MEAL TIME
+        Breakfast, Lunch, Dinner, Brunch, Late Night, Drink</li>
+    </ol>
+    <p>Kabanbay batyr street, 60/18, Nur-sultan.</p>
+
+  </div>
+  <div class="column">
+    <img src="https://media-cdn.tripadvisor.com/media/photo-s/1c/20/69/a2/emiliya-emiliya.jpg" alt="emiliya" width="450" height="333">
+    <a href="https://www.instagram.com/emiliya.restaurant/?hl=en"><button type="button" class="btn btn-info">Emiliya</button></a>
+    <ol>
+      <li>PRICE RANGE
+        7,000 KZT - 15,000 KZT</li>
+      <li>KITCHEN TYPE
+        International, European, Healthy</li>
+      <li>SPECIALIZED MENU
+        Vegetarian Friendly, Vegan Options, Gluten Free Options</li>
+    </ol>
+    <p>Syganak street, 16/1 Sheraton Nur-Sultan Hotel</p>
+
+  </div>
+  <div class="column">
+    <img src="https://media-cdn.tripadvisor.com/media/photo-s/13/a6/c6/c1/chechil.jpg" alt="chechil" width="380" height="333">
+    <a href="https://chechil-pub.kz/"><button type="button" class="btn btn-info">Chechil Pub</button></a>
+    <ol>
+      <li>PRICE RANGE
+        2 180 KZT - 6 539 KZT</li>
+      <li>KITCHEN TYPE
+        Italian, Mexican, European, Asian, Eastern European, Central European</li>
+      <li>SPECIALIZED MENU
+        Vegetarian Friendly, Vegan Options, Gluten Free Options</li>
+    </ol>
+    <p>Kabanbay batyr street 2/1, Nur-sultan 020000</p>
+  </div>
+</div>
+
+<style>
+  * {
+    box-sizing: border-box;
+  }
+
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+</style>
+<div class="row">
+  <div class="column">
+
+    <img src="https://media-cdn.tripadvisor.com/media/photo-s/16/3c/82/3a/ozen-lounge-and-bar-at.jpg" alt="Ozen" width="420" height="333">
+    <a href="https://www.instagram.com/ozenlobby/?hl=en"><button type="button" class="btn btn-info">Ozen</button></a>
+    <ol>
+      <li>PRICE RANGE
+        3 000 KZT - 100 000 KZT</li>
+      <li>KITCHEN TYPE
+        Italian, Mexican, European, Asian, Eastern European, Central European</li>
+      <li>SPECIALIZED MENU
+        Bar, Cafe, Wine, Vegetarian Friendly, Vegan Options, Gluten Free Options</li>
+    </ol>
+    <p>16 Dostyk str. The Ritz-Carlton, Astana 010016</p>
+
+  </div>
+  <div class="column">
+    <img src="https://media-cdn.tripadvisor.com/media/photo-s/11/4a/51/02/a-vivid-interior-of-m.jpg" alt="Mökki" width="500" height="333">
+    <a href="https://www.instagram.com/mokkirestaurant/?hl=en"><button type="button" class="btn btn-info">Mökki</button></a>
+    <ol>
+      <li>PRICE RANGE
+        10 000 KZT - 100 000 KZT</li>
+      <li>KITCHEN TYPE
+        Italian, Mexican, Eastern European, Central European</li>
+      <li>SPECIALIZED MENU
+        Vegetarian Friendly, Gluten Free Options</li>
+    </ol>
+    <p>Dostyk street 16 3 Floor, Nur-sultan 010016</p>
+  </div>
+</div>
+
+
+  <style>
+    #par2 {
+      text-align: left;
+      color: rgb(0, 0, 0);
+    }
+  </style>
+
+  <hr>
+
+  <center>
+    <h3 style="font-family: helvetica;">TOP-5 Best <em>Cafes</em></h3>
+  </center>
+  <div class="row">
+    <div class="column">
+
+      <img src="https://sxodim.com/uploads/astana/2016/05/rafe-3-800x500.jpg" alt="Rafe" width="370" height="333">
+      <a href="https://www.instagram.com/rafe.kz/"><button type="button" class="btn btn-info">Rafe</button></a>
+      <ol>
+        <li>KITCHEN TYPE
+          Italian</li>
+        <li>SPECIALIZED MENU
+          For vegans</li>
+        <li>MEAL TIME
+          Breakfast, Lunch, Brunch, Open Late</li>
+      </ol>
+      <p>Alikhan Bokeikhanov street, 16 Near Congress Hall, Nur-sultan</p>
+
+    </div>
+    <div class="column">
+      <img src="https://media-cdn.tripadvisor.com/media/photo-s/0a/2a/8d/ed/caption.jpg" alt="Bon Bon" width="400" height="333">
+      <a href="https://www.instagram.com/bonbon.nursultan/"><button type="button" class="btn btn-info">Bon Bon</button></a>
+      <ol>
+        <li>PRICE RANGE
+          4 359 KZT - 6 539 KZT</li>
+        <li>KITCHEN TYPE
+          Cafe, European</li>
+        <li>SPECIALIZED MENU
+          Suitable for vegetarians</li>
+      </ol>
+      <p>Kunayev street, 14/1, Nur-sultan</p>
+
+    </div>
+    <div class="column">
+      <img src="https://media-cdn.tripadvisor.com/media/photo-s/08/cf/b4/97/photo4jpg.jpg" alt="Eagilik" width="380" height="333">
+      <a href="https://www.instagram.com/eagilik/?hl=en"><button type="button" class="btn btn-info">Eagilik — Books & Coffee</button></a>
+      <ol>
+        <li>PRICE RANGE
+          350 KZT - 750 KZT</li>
+        <li>KITCHEN TYPE
+          Cafe</li>
+        <li>MEAL TIME
+          Breakfast</li>
+      </ol>
+      <p>Kenesary street, 61/1, Nur-sultan</p>
+    </div>
+  </div>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    .column {
+      float: left;
+      width: 33.33%;
+      padding: 5px;
+    }
+
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+  </style>
+  <div class="row">
+    <div class="column">
+
+      <img
+        src="https://strg2.restoran.kz/neofiles/serve-image/5ac6a3bfd0629134f7014e73/1280x720/c1/q70"
+        alt="Marronne Rosso" width="480" height="333">
+      <a href="http://keruen.kz/fudkort/restorany/marrone_rosso"><button type="button" class="btn btn-info">Marrone Rosso</button></a>
+      <ol>
+        <li>KITCHEN TYPE
+          Cafe</li>
+        <li>SPECIALIZED MENU
+          For vegans and vegetarians</li>
+        <li>MEAL TIME
+          Coffee breaks, Breakfast, Lunch, Brunch, Open Late</li>
+      </ol>
+      <p>Dostyk street, 9 (Keruyen Mall) near the Baiterek, Nur-sultan</p>
+
+    </div>
+    <div class="column">
+      <img src="https://media-cdn.tripadvisor.com/media/photo-s/1b/46/71/85/caption.jpg" alt="koktem" width="450" height="333">
+      <a href="https://www.instagram.com/cafekoktem/?hl=en"><button type="button" class="btn btn-info">Koktem</button></a>
+      <ol>
+        <li>PRICE RANGE
+          3,000 KZT - 5,000 KZT</li>
+        <li>KITCHEN TYPE
+          International, Indian, Cafe, Asian</li>
+        <li>SPECIALIZED MENU
+          Vegan Options, Vegetarian Friendly, Halal
+        </li>
+      </ol>
+      <p>Kunayeva street, 12/1, Nur-sultan</p>
+    </div>
+  </div>
+
+<hr>
+  <p id="par1"> In Astana, the significance of dining areas is very big both for the citizens and the tourists. <br>
+    People love eating out, especially on weekends and when visiting our beloved capital. <br>
+    That is why finding a great place to eat and enjoy your food is a reason for a good mood. <br>
+  </p>
+  <hr>
+
+
+  <section id="comment">
+    <h4>Leave your <mark>recommendations</mark>below:</h4>
+
+    <div class="boxsend">
+    <form action="/my-handling-form-page" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="user_name">
+        <label for="mail">E-mail:</label>
+        <input type="email" id="mail" name="user_email">
+        <label for="msg">Message:</label>
+        <textarea id="msg" name="user_message"></textarea>
+        </form>
+      </div>
+      <div class="sometext">
+        <h5>We will answer you as fast as we can!</h5>
+  </section>
+
+    </div>
+</div>
+</div>
+</div>
+
+<hr>
+<center><h4><b>Thank you for using our website!</b></h4></center>
+
+</div>
+
+<footer> 
+  <center>
+  <div class="contain-footer-info"> 
+   <span class="made-with">Made with</span> 
+   <svg class="by-heart" version="1.1" width="50px" height="34px" viewBox="0 0 90.65 85.04"> 
+      <path class="by-heart-path" fill="none" stroke="#ea6b46" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d=" 
+      M45.137,23.041c4.912-24.596,40.457-27.775,42.128-0.435c1.398,22.88-21.333,40.717-42.128,50.522 M45.137,23.041 
+      C40.225-1.555,5.057-4.734,3.387,22.606c-1.398,22.88,20.955,40.717,41.75,50.522"/>  
+    </svg>  
+    <span class="by">by <a href="https://moodle.astanait.edu.kz/" class="byline">Abdrali Lashyn and Kinzhebay Moldir</a></span> 
+  </div> 
+ </center>
+</footer>
+</body>
+
+</html>

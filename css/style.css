@@ -1,0 +1,266 @@
+body{
+    background-color: #DEEDF0;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 90px;
+}
+
+
+h1{
+    color: rgb(0, 0, 0);
+
+}
+
+h1{
+    display: block;
+    background-color: #F4C7AB;
+}
+
+h2 {
+    position: absolute;
+    left: 180px;
+    top: 150px;
+  }
+
+  #par1 {
+    text-align: left;
+    color: rgb(0, 0, 0);
+  }
+
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .layer {
+    width: 300px;
+   }
+   * {
+     box-sizing: border-box;
+   }
+
+   .column {
+     float: left;
+     width: 33.33%;
+     padding: 5px;
+   }
+
+   .row::after {
+     content: "";
+     clear: both;
+     display: table;
+   }
+
+   .boxsend{
+     height:200px;
+     width: 100px;
+     border: 2px solid transparent;
+     margin-bottom: 20px;
+   }
+   .sometext{
+     padding: 16px;
+   }
+
+   .nav-item a, a{
+    color: #ffffff;
+    font-weight: 500;
+  }
+  
+  .slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+
+  .mySlides {
+    display: none;
+  }
+
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    text-decoration: none;
+  }
+  
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+    text-decoration: none;    
+  }
+
+  .nav-item a:hover{
+    color: #a5c5da;
+  }
+  
+  a:hover {
+    color: #a5c5da;
+  }
+
+  #btn1{
+    color: white;
+    border-color: #a5c5da
+  }
+
+  #btn1:hover{
+    color: white;
+    background-color: #a5c5da;
+    border-color: #a5c5da
+  }
+  
+  .header-background{
+    position: static !important;
+    display: block;
+    overflow: visible;
+    top: 0;
+    height: auto;
+    flex-direction: column;
+    background-position: 0px 0px, 100% 50%;
+    background-size: auto, cover;
+    white-space: normal;
+    object-fit: fill;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+  }
+  
+  .sticky-nav {
+    position: fixed;
+    width: 1215px;
+    top: 0px;
+    padding: 5px;
+    z-index: 1;
+    align-self: auto;
+    -ms-flex-item-align: auto;
+    -ms-grid-row-align: auto;
+    background-color: rgba(12, 32, 59, 0.5);
+    -webkit-box-ordinal-group: 1;
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order:0;
+    transition: top 0.3s;
+  }
+  
+  .navbar .navbar-brand a {
+    padding: 1rem 0;
+    display: block;
+    text-decoration: none;
+    font-size: 2.2rem;
+    color: white;
+  }
+  
+  .navbar-brand {
+    font-size: 2.2rem;
+    color: white;
+  }
+  
+  .navbar-toggler {
+    border: none;
+    padding: 10px 6px;
+    outline: none;
+  }
+  
+  .navbar-toggler span {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border: 1px;
+    background-color: white;
+  }
+  
+  .navbar-toggler span + span{
+    width: 22px;
+    margin-top: 4px;
+  }
+  
+  .navbar-toggler span + span + span{
+    width: 22px;
+  }
+
+  .table1{
+    animation: AppearAt 3s;
+  }
+
+  @keyframes AppearAt {
+    from {
+      opacity: 0;
+      transform: rotateX(-10deg);
+    }
+  
+    to{
+      opacity: 1;
+      transform: rotateX(0);
+    }
+  }
+  .by-heart-path { 
+    stroke-dasharray: 7; 
+    animation: move-heart 1s infinite; 
+  } 
+   
+  @keyframes move-heart { 
+    50% { 
+      stroke-dashoffset: 40; 
+    } 
+  } 
+   
+  @media (min-width: 800px) { 
+    .demo { 
+      height: 250px; 
+    } 
+   
+    .contain-all { 
+      margin: auto; 
+      width: 765px; 
+    } 
+   
+    a { 
+      display: inline-block; 
+      margin-right: 150px; 
+    } 
+   
+    footer .byline { 
+      display: block; 
+      margin-right: 0; 
+    } 
+   
+    .contain-icon:last-of-type { 
+      margin-right: 0; 
+    } 
+   
+  }
+    
+  
+  
+   
